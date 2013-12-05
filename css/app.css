@@ -5,12 +5,47 @@ html {
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:300;
 }
 
 .hero {
 	max-width:100%;
+	width:1400px;
+	margin:0 auto;
+	background-color:WhiteSmoke;
 }
 
 /* ======================== TYPOGRAPHY ========================== */
+h1 {
 
+}
+
+
+h2 {
+	font-weight:300;
+	font-size:6.85em;
+}
+
+h3 {
+	font-size:4.25em;
+	line-height:1.375em;
+}
+
+h4 {
+	font-size:2.6em;
+}
+
+h5 {
+	font-size:1.618em;
+}
+
+p {
+	font-size:1.618em;
+	font-weight:200;
+}
+
+
+.first-paragraph{
+	margin-top:1em;
+	font-size:2em;
+	font-weight:300;
+}
