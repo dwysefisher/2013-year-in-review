@@ -1,0 +1,16 @@
+html {
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+}
+
+.hero {
+	max-width:100%;
+}
+
+/* ======================== TYPOGRAPHY ========================== */
+
