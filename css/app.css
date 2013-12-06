@@ -11,7 +11,14 @@ body {
 	max-width:100%;
 	width:1400px;
 	margin:0 auto;
-	background-color:WhiteSmoke;
+	background-color:#000;
+}
+
+.hero-orbit{
+	background-color: #990033;
+	max-width:100%;
+	width: 2000px;
+	margin:0 auto;	
 }
 
 /* ======================== TYPOGRAPHY ========================== */
@@ -48,4 +55,9 @@ p {
 	margin-top:1em;
 	font-size:2em;
 	font-weight:300;
+}
+
+p.lead-paragraph{
+	color: #FFF;
+	line-height: 2em;
 }
