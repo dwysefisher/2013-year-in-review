@@ -7,19 +7,6 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.hero {
-	max-width:100%;
-	width:1400px;
-	margin:0 auto;
-	background-color:#000;
-}
-
-.hero-orbit{
-	background-color: #990033;
-	max-width:100%;
-	width: 2000px;
-	margin:0 auto;	
-}
 
 /* ======================== TYPOGRAPHY ========================== */
 h1 {
@@ -50,6 +37,9 @@ p {
 	font-weight:200;
 }
 
+.intro {
+	background-color: #990033;
+}
 
 .first-paragraph{
 	margin-top:1em;
@@ -58,6 +48,31 @@ p {
 }
 
 p.lead-paragraph{
-	color: #FFF;
+	color: #A6A6A6;
 	line-height: 2em;
+}
+
+/* ======================== IMAGES AND MEDIA ========================== */
+
+.seal {
+	display: block;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+	padding: 2em 0;
+	opacity: 0.7;
+	}
+
+.header-image-bg {
+	background-image: url(../img/Sanders-Hall-rendering-hero.jpg);
+	background-position: center;
+	max-width:100%;
+	width:1400px;
+	margin:0 auto;
+	background-color:#000;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: cover;
 }
