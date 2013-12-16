@@ -2549,6 +2549,7 @@ a.th {
 .orbit-container {
   overflow: hidden;
   width: 100%;
+  max-width: 100%;
   position: relative;
   background: none; }
   .orbit-container .orbit-slides-container {
@@ -2558,7 +2559,8 @@ a.th {
     position: relative; }
     .orbit-container .orbit-slides-container img {
       display: block;
-      max-width: 100%; }
+      max-width: 100%;
+      height: auto; }
     .orbit-container .orbit-slides-container > * {
       position: absolute;
       top: 0;
