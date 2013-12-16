@@ -68,7 +68,7 @@ p.lead-paragraph{
 	line-height: 2em;
 }
 
-.title {
+.title-story {
   font-size: 2em;
   font-weight: 600;
   font-style: normal;
@@ -134,6 +134,9 @@ and (min-width : 1025px) {
 	
 	.header-image-bg {
 	  height: 800px;}
-	  
+	
+	.accordion .content {
+	  padding: 5rem;
+	  font-size: 0.875rem; } /* my addition */  
   
 }
