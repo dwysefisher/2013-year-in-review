@@ -25,8 +25,15 @@ body {
 }
 
 .black {
-	background-color: lime;
-}
+	background-color: lime;}
+
+footer {
+	background-color: #990033;
+	height: 10em;
+	text-align: center;}
+
+footer h4 {
+	color: #fff !important;}
 
 /* ======================== TYPOGRAPHY ========================== */
 h1 {
@@ -116,6 +123,20 @@ p.lead-paragraph{
 .orbit-slides-container {
   width: 100%;
   height: 100% !important;}
+  
+.th {
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+/* ======================== LISTS ========================== */
+
+ul.circle li {
+	padding-bottom: 1em;
+}
+
+ul.no-bullet li {
+	padding-bottom: 1em;
+}  
   
 /* ======================== ACCORDION ========================== */
 
