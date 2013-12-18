@@ -1603,10 +1603,10 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
+    background: none;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #0079a1; }
+      background: none; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {

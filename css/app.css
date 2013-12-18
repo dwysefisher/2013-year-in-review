@@ -29,11 +29,14 @@ body {
 
 footer {
 	background-color: #990033;
-	height: 10em;
+/*	height: 10em;*/
 	text-align: center;}
 
-footer h4 {
-	color: #fff !important;}
+footer h5 {
+	color: #fff !important;
+	line-height: 1em;
+	margin: 2em auto;
+}
 
 /* ======================== TYPOGRAPHY ========================== */
 h1 {
@@ -66,6 +69,7 @@ p {
 
 .intro {
 	background-color: #990033;
+	max-width: 100%;
 }
 
 .first-paragraph{
@@ -192,6 +196,6 @@ and (min-width : 1025px) {
 	
 	.accordion .content {
 	  padding: 5rem;
-	  font-size: 0.875rem; } /* my addition */  
-  
+	  font-size: 0.875rem; } /* my addition */ 
+	   
 }
