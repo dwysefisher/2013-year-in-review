@@ -91,6 +91,13 @@ p.lead-paragraph{
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.4); 
 }
 
+figcaption {
+	color: #A9A9A9;
+	padding-top: 1em;
+	text-align: center;
+	font-size: 0.875em;
+}
+
 /* ======================== IMAGES AND MEDIA ========================== */
 
 .hr-style {
@@ -109,7 +116,7 @@ p.lead-paragraph{
 	}
 
 .header-image-bg {
-  background: #FFF url(../img/Sanders-Hall-rendering-hero.jpg) no-repeat center;
+  background: #FFF url(../img/groundbreaking-students.jpg) no-repeat center;
   max-width: 100%;
   padding: 2em;
   margin: 0 auto;
@@ -199,5 +206,9 @@ and (min-width : 1025px) {
 	.accordion .content {
 	  padding: 5rem;
 	  font-size: 0.875rem; } /* my addition */ 
+	  
+	.title-story-main {
+		color: #990033;
+	}
 		   
 }
