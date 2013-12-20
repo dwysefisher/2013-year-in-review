@@ -132,6 +132,8 @@ p.lead-paragraph{
 	margin-right: 1em;
 	margin-bottom: 1em;
 }
+
+
 /* ======================== LISTS ========================== */
 
 ul.circle li {
@@ -197,5 +199,5 @@ and (min-width : 1025px) {
 	.accordion .content {
 	  padding: 5rem;
 	  font-size: 0.875rem; } /* my addition */ 
-	   
+		   
 }
