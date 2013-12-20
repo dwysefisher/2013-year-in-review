@@ -50,8 +50,11 @@ h2 {
 }
 
 h3 {
-	font-size:4.25em;
-	line-height:1.375em;
+	font-size:3.5em;
+	line-height:1em;
+	padding-top: 0.5em !important;
+	margin-bottom: 0.5em;
+	font-style: normal;
 }
 
 h4 {
@@ -76,6 +79,8 @@ p {
 	margin-top:1em;
 	font-size:2em;
 	font-weight:300;
+	line-height: 1.375em;
+	padding-bottom: 1em;
 }
 
 p.lead-paragraph{
@@ -95,10 +100,17 @@ figcaption {
 	color: #A9A9A9;
 	padding-top: 1em;
 	text-align: center;
-	font-size: 0.875em;
+	font-size: 0.80em;
 }
 
 /* ======================== IMAGES AND MEDIA ========================== */
+
+.hero {
+	max-width: 100%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	margin-bottom: 1em;
+}
 
 .hr-style {
     border: 0;
@@ -209,6 +221,7 @@ and (min-width : 1025px) {
 	  
 	.title-story-main {
 		color: #990033;
+		margin-top: 20em;
 	}
 		   
 }
