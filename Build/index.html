@@ -13,6 +13,10 @@
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <script src="js/vendor/custom.modernizr.js"></script>
 
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
 <link rel="icon" 
       type="image/png" 
       href="img/favicon.ico">
@@ -29,7 +33,8 @@
 		<section class="row">
 			<div class="large-10 large-centered columns">
 			<img class="seal" src="img/ec-seal-white-web.png" />
-			<p class="lead-paragraph">As 2013 draws to a close, the Eureka College community reflects on the blessings, events and accomplishments of the calendar year.  With the remainder of the academic year ahead of us, the excitement will continue in January. But for now, as we celebrate the new year, <b>please enjoy this visual review of 2013 'neath the Elms</b>.</p> 
+			<h3 style="text-align:center; color:#A6A6A6;"><b>2013 Year in Review</b></h3>
+			<p class="lead-paragraph">As 2013 draws to a close, the Eureka College community reflects on the blessings, events and accomplishments of the calendar year. With the remainder of the academic year ahead of us, the excitement will continue in January. As we look forward to the coming year, please enjoy this visual review of 2013 'neath the Elms.</p> 
 			</div>
 		</section>
 	</div>
@@ -37,17 +42,20 @@
 <section class="container">
 
 <section class="contain-to-grid sticky">
-	<nav class="top-bar" data-topbar data-options="mobile_show_parent_link: true">
+	<nav class="top-bar" data-topbar>
 	  <ul class="title-area">
 	    <li class="name">
-	      <h1><a href="#">2013 Year in Review</a></h1></li>
+	      <!--<h1><a href="#">2013 Year in Review</a></h1>
+	    </li>-->
 	      <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
 	  </ul>
 
 	  <section class="top-bar-section">
 	    <!-- Right Nav Section -->
 	    <ul class="right menu-icon">
+	      <li class="divider"></li>
 	      <li><a href="#">Home</a></li>
+	      <li class="divider"></li>
 	      <li class="has-dropdown"><a href="#learn-section">Learn</a>
 	      	<ul class="dropdown">
 	      		<li><a href="#sanders-section">Sanders Hall</a></li>
@@ -57,20 +65,22 @@
 	      		<li><a href="#nsse-article">NSSE</a></li>
 	      	</ul>
 	      </li>
+	      <li class="divider"></li>
 	      <li class="has-dropdown"><a href="#serve-section">Serve</a>
 	      	<ul class="dropdown">
 	      		<li><a href="#relief-article">Relief Efforts</a></li>
 	      		<li><a href="#rule-article">Maroon &amp; Golden Rule</a></li>
 	      	</ul>	      
 	      </li>
+	      <li class="divider"></li>
 	      <li class="has-dropdown"><a href="#lead-section">Lead</a>
 	      	<ul class="dropdown">
 	      		<li><a href="#tuition-article">Tuition Freeze</a></li>
 	      		<li><a href="#oconnor-article">Sandra Day O'Connor</a></li>
 	      		<li><a href="#women-article">Women in Leadership</a></li>
-<!--	      		<li><a href="#student-article">Student Leaders</a></li>-->
 	      	</ul>	      
 	      </li>
+	      <li class="divider"></li>
 	    </ul>
 	  </section>
 	</nav>
@@ -134,19 +144,17 @@
 
 <a id="top"></a>
 
-<!--<header>-->
-	<section class="header-image-bg" id="sanders-section">
+<section class="header-image-bg" id="sanders-section">
 <!--		<article class="row">
 		<h1 class="title-story title-story-main small-push-1 large-push-1">Sanders Hall construction begins</h1>
 		</article>-->
-	</section>
-<!--</header>-->
+</section>
 
 <!--<header>-->
 <div class="small-12 columns black">
 <section class="small-11 columns" id="learn-section">
 	<article class="row">
-	<h1 class="title-story small-push-1 large-push-1">LEARN.</h1>
+	<h3 class="title-story small-push-1 large-push-1">LEARN.</h3>
 	</article>
 </section>
 </div>
@@ -483,8 +491,7 @@
 				<h3 class="hide-for-small-only">National Survey for Student Engagement</h3>
 		</header>
 		<div class="hero">
-			<figure><img src="img/nsse1.jpg" alt="National Survey for Student Engagement" title=""/></figure><br /><br />
-			<figure><img src="img/nsse2.jpg" alt="National Survey for Student Engagement" title="Dr. Kathy Whitson"/></figure>
+			<figure><img src="img/nsse1.jpg" alt="National Survey for Student Engagement" title="Associate Professor Holly Rocke"/></figure><br /><br />
 		</div>
 	</article>
 
@@ -509,6 +516,12 @@
 				<li>Quality of Interactions</li>
 			</ul>
 	</article>
+	
+	<article class="row small-12 large-12 small-centered columns">
+		<div class="hero">
+			<figure><img src="img/nsse2.jpg" alt="National Survey for Student Engagement" title="Dr. Kathy Whitson"/></figure>
+		</div>
+	</article>
 
 </section> <!-- end NSSE -->
 
@@ -527,20 +540,19 @@
 
 <!--<header>-->
 <div class="small-12 columns black">
-	<section class="small-11 columns" id="learn-section">
-		<article class="row">
-		<h1 class="title-story small-push-1 large-push-1">SERVE.</h1>
-		</article>
-	</section>
+<section class="small-11 columns" id="serve-section">
+	<article class="row">
+	<h3 class="title-story small-push-1 large-push-1">SERVE.</h3>
+	</article>
+</section>
 </div>
 <!--</header>-->
 
-<section class="row small-11 large-10 small-centered columns hero" id="learn-section">
-		<article class="row figure">
+<section class="row small-11 large-10 small-centered columns hero">
+		<article class="row">
 				<header>
-					<div class="row">
-					<div class="large-9 columns"><h3 class="first-paragraph">At Eureka, we believe that learning inside and outside the classroom, being a leader on campus and in your community, and giving back through service can significantly enrich students' educational experiences. For the third consecutive year, Eureka College has been named to the President’s Higher Education Community Service Honor Roll for exemplary community service. </h3></div>
-					<div class="large-3 small-6 small-centered large-uncentered columns" style="padding-top: 3em !important; size: 50%;"><img src="img/service-honor-roll.jpg" /></div>
+					<div class="large-8 large-offset-1 columns"><h3 class="first-paragraph">At Eureka, we believe that learning inside and outside the classroom, being a leader on campus and in your community, and giving back through service can significantly enrich students' educational experiences. For the third consecutive year, Eureka College has been named to the President’s Higher Education Community Service Honor Roll for exemplary community service. </h3></div>
+					<div class="large-2 small-6 small-centered large-uncentered columns" style="padding-top: 3em !important; size: 50%;"><a href="http://www.nationalservice.gov/special-initiatives/honor-roll/2013" target="_blank"><img src="img/service-honor-roll.jpg" /></a></div>
 					</div>
 				</header>
 		</article>
@@ -617,7 +629,7 @@
 
 </section> <!-- end Maroon &amp; Golden Rule -->		
 	
-</section> <!-- end Learn Section -->
+</section> <!-- end Serve Section -->
 <div class="row">
 	<div class="large-12 small-offset-11 columns">
 		<p class="top"><a href="#top">Top of Page</a></p>
@@ -630,19 +642,21 @@
 
 <!--<header>-->
 <div class="small-12 columns black">
-	<section class="small-11 columns" id="lead-section">
-		<article class="row">
-		<h1 class="title-story small-push-1 large-push-1">LEAD.</h1>
-		</article>
-	</section>
+<section class="small-11 columns" id="lead-section">
+	<article class="row">
+	<h3 class="title-story small-push-1 large-push-1">LEAD.</h3>
+	</article>
+</section>
 </div>
 <!--</header>-->
 
 <section class="row small-11 large-10 small-centered columns hero">
-		<article class="row figure">
-				<header>
-				<h3 class="first-paragraph"> Leadership has been a central precept of the Eureka College culture since our inception in 1855. Leadership education incorporated into student learning is foundational to the Eureka experience. Similarly, we believe our institution plays a significant leadership role in the community, region and nation and we work to ensure that decisions made by our Administration and Board of Trustees provide continued leadership to the industry of higher education.</h3>
-				</header>
+		<article class="row">
+			<header>
+			<div class="large-10 large-centered columns">
+			<h3 class="first-paragraph">Leadership has been a central precept of the Eureka College culture since our inception in 1855. Leadership education incorporated into student learning is foundational to the Eureka experience. Similarly, we believe our institution plays a significant leadership role in the community, region and nation and we work to ensure that decisions made by our Administration and Board of Trustees provide continued leadership to the industry of higher education.</h3>
+			</div>
+			</header>
 		</article>
 </section>
 
@@ -792,10 +806,10 @@
 
 <div class="row">
 	<div class="small-11 large-12 small-centered large-centered columns">
+<h1>Best wishes for a safe and prosperous new year. </h1>
+<h1><small>Eureka College 2013 Year in Review</small></h1>
 	</div>
 
-<h1>Best wishes for a safe and prosperous new year. </h1>
-<h1><small>Eureka College 2013 Year in Review</small></h1> 
 
 </div>
 
