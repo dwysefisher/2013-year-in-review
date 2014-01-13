@@ -123,15 +123,16 @@ figcaption {
 
 .seal {
 	display: block;
-	width: 25%;
-	height: 25%;
 	margin: 0 auto;
 	padding: 2em 0;
 	opacity: 1;
+	max-height: 50%;
+	max-width: 50%;
 	}
 
 .header-image-bg {
   background: #FFF url(../img/groundbreaking-students.jpg) no-repeat center;
+  height: 400px;
   max-width: 100%;
   padding: 2em;
   margin: 0 auto;
@@ -202,9 +203,26 @@ and (max-device-width : 1024px) {
 /* Styles */
 
 	.header-image-bg {
-	  height: 100%;
-	  background-color: #FFF;
-	  background-size: cover;
+	  height: 500px;
+	  max-width: 100%;
+	}
+	
+	.seal {
+		max-width: 20%;
+		max-height: 20%;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	.header-image-bg {
+	  height: 500px;
+	  max-width: 100%;
 	}
 
 }
@@ -216,7 +234,7 @@ and (min-width : 1025px) {
 /* Styles */
 	
 	.header-image-bg {
-	  height: 800px;}
+	  height: 900px;}
 	
 	.accordion .content {
 	  padding: 5rem;
@@ -226,5 +244,14 @@ and (min-width : 1025px) {
 		color: #990033;
 		margin-top: 20em;
 	}
+	.seal {
+		max-width: 30%;
+		max-height: 30%;
+	}
+	
+/*	img {
+		margin: 0 auto !important;
+		max-width: 100%;
+	}*/
 		   
 }
